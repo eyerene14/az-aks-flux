@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: isk-reloader
-  namespace: flux-system
+  namespace: isk-reloader
 spec:
   interval: 1m0s
   ref:
@@ -14,7 +14,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: isk-reloader
-  namespace: flux-system
+  namespace: isk-reloader
 spec:
   interval: 2m0s
   path: ./isk-reloader
