@@ -7,7 +7,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: only-hrelease-nsp-isk-reloader
+    branch: all-nsps-isk-reloader
   url: https://github.com/eyerene14/isk-reloader
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
