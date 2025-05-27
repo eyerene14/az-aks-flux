@@ -24,4 +24,3 @@ spec:
     kind: GitRepository
     name: isk-reloader
     namespace: flux-system
-  targetNamespace: isk-reloader
