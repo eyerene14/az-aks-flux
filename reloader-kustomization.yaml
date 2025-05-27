@@ -7,7 +7,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: app_mock_up
+    branch: only-hrelease-nsp-isk-reloader
   url: https://github.com/eyerene14/isk-reloader
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
@@ -24,3 +24,4 @@ spec:
     kind: GitRepository
     name: isk-reloader
     namespace: flux-system
+  targetNamespace: isk-reloader
