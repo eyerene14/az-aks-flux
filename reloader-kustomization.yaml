@@ -23,4 +23,3 @@ spec:
   sourceRef:
     kind: GitRepository
     name: isk-reloader
-  targetNamespace: isk-reloader
