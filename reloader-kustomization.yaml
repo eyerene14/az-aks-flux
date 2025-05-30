@@ -24,3 +24,8 @@ spec:
     kind: GitRepository
     name: isk-reloader
   targetNamespace: isk-reloader
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: isk-reloader
