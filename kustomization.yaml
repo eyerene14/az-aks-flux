@@ -4,4 +4,3 @@ kind: Kustomization
 resources:
 - reloader-kustomization.yaml
 - secrets-kustomization.yaml
-- sldx-kustomization.yaml
